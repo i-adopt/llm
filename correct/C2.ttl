@@ -6,10 +6,7 @@ ex:C2 a iop:Variable ;
     rdfs:label "Air daily maximum temperature" ;
     rdfs:comment "Temperature of the air in a height of 1.7 meter, daily maximum" ;
     ex:issue "https://github.com/i-adopt/examples/issues/19" ;
-    iop:hasConstraint [ a iop:Constraint ;
-            rdfs:label "daily" ;
-            iop:constrains ex:C2_Mod1 ],
-        [ a iop:Constraint ;
+    iop:hasConstraint  [ a iop:Constraint ;
             rdfs:label "1,7 m aboveground" ;
             iop:constrains ex:C2_OoI1 ] ;
     iop:hasMatrix ex:C2_Matrix1 ;
@@ -25,7 +22,7 @@ ex:C2_Prop1 a iop:Property ;
     rdfs:label "temperature" .
 
 ex:C2_Mod1 a iop:StatisticalModifier ;
-    rdfs:label "maximum" .
+    rdfs:label "daily maximum" .
 
 ex:C2_OoI1 a iop:Entity ;
     rdfs:label "air" .
