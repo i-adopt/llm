@@ -11,7 +11,7 @@ ex:C3 a iop:Variable ;
     iop:hasProperty ex:C3_Prop3 .
 
 ex:C3_Matrix3 a iop:Entity ;
-    rdfs:label "atmosphere" .
+    rdfs:label "sky" .
 
 ex:C3_Prop3 a iop:Property ;
     rdfs:label "area fraction" .
