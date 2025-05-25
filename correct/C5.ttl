@@ -18,7 +18,7 @@ ex:C5_Matrix6 a iop:Entity ;
     rdfs:label "aerosol particle" .
 
 ex:C5_CO6 a iop:Entity ;
-    rdfs:label "atmosphere" .
+    rdfs:label "air" .
 
 ex:C5_OoI6 a iop:Entity ;
     rdfs:label "organic matter" .
