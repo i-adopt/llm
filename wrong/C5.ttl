@@ -10,7 +10,7 @@ ex:C5 a iop:Variable ;
             rdfs:label "at 550nm wavelength" ;
             iop:constrains ex:C5_Prop6 ],  
         [ a iop:Constraint ;
-            rdfs:label "organic matter" ;
+            rdfs:label "due to organic matter" ;
             iop:constrains ex:C5_Prop6 ] ;
     iop:hasMatrix ex:C5_Matrix6 ;
     iop:hasObjectOfInterest ex:C5_OoI6 ;
