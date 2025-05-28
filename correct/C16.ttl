@@ -6,10 +6,7 @@ ex:C16 a iop:Variable ;
     rdfs:label "Standard metabolic rate in mg of Oxygen per hour" ;
     rdfs:comment "The measure of an ectotherm animal's baseline metabolic rate (i.e. non-active, non-stressed) measured by the milligrams of oxygen consumed in a period of time of one hour." ;
     ex:issue "https://github.com/i-adopt/examples/issues/33" ;
-    iop:hasConstraint [ a iop:Constraint ;
-            rdfs:label "ectotherm" ;
-            iop:constrains ex:C16_Matrix22 ],
-        [ a iop:Constraint ;
+    iop:hasConstraint   [ a iop:Constraint ;
             rdfs:label "due to metabolism" ;
             iop:constrains ex:C16_Prop22 ],
         [ a iop:Constraint ;
@@ -29,5 +26,5 @@ ex:C16_Prop22 a iop:Property ;
     rdfs:label "mass flow rate" .
 
 ex:C16_Matrix22 a iop:Entity ;
-    rdfs:label "organism" .
+    rdfs:label "ectotherm organism" .
 
