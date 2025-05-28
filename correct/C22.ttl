@@ -6,9 +6,6 @@ ex:C22 a iop:Variable ;
     rdfs:label "Current smoking status" ;
     rdfs:comment "Smoking status current of a patient" ;
     ex:issue "https://github.com/i-adopt/examples/issues/39" ;
-    iop:hasConstraint [ a iop:Constraint ;
-            rdfs:label "current" ;
-            iop:constrains ex:C22_Prop35 ] ;
     iop:hasObjectOfInterest ex:C22_OoI35 ;
     iop:hasProperty ex:C22_Prop35 .
 
