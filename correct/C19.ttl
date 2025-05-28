@@ -10,9 +10,6 @@ ex:C19 a iop:Variable ;
             rdfs:label "weight-specific" ;
             iop:constrains ex:C19_Prop28 ],
         [ a iop:Constraint ;
-            rdfs:label "dry" ;
-            iop:constrains ex:C19_Matrix28 ],
-        [ a iop:Constraint ;
             rdfs:label "at non-limiting conditions" ;
             iop:constrains ex:C19_OoI28 ],
         [ a iop:Constraint ;
@@ -29,7 +26,7 @@ ex:C19_OoI28 a iop:Entity ;
     rdfs:label "Carbon" .
 
 ex:C19_Matrix28 a iop:Entity ;
-    rdfs:label "organism" .
+    rdfs:label "dry organism" .
 
 ex:C19_Prop28 a iop:Property ;
     rdfs:label "mass flow rate" .
