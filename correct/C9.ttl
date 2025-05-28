@@ -17,7 +17,7 @@ ex:C9_Matrix12 a iop:Entity ;
     rdfs:label "ground" .
 
 ex:C9_Prop12 a iop:Property ;
-    rdfs:label "area fraction" .
+    rdfs:label "cover" .
 
 ex:C9_OoI12 a iop:Entity ;
     rdfs:label "foliage" .
