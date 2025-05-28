@@ -10,7 +10,7 @@ ex:C12 a iop:Variable ;
     iop:hasProperty ex:C12_Prop17 .
 
 ex:C12_Prop17 a iop:Property ;
-    rdfs:label "probability " .
+    rdfs:label "probability of occurrence" .
 
 ex:C12_OoI17 a iop:Entity ;
     rdfs:label "habitat" .
