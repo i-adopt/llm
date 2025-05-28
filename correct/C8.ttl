@@ -8,13 +8,16 @@ ex:C8 a iop:Variable ;
     ex:issue "https://github.com/i-adopt/examples/issues/25" ;
     iop:hasMatrix ex:C8_Matrix11 ;
     iop:hasObjectOfInterest ex:C8_OoI11 ;
-    iop:hasProperty ex:C8_Prop11 .
+    iop:hasProperty ex:C8_Prop11 ;
+    iop:hasConstraint [ a iop:Constraint ;
+            rdfs:label "coarse" ;
+            iop:constrains ex:C8_OoI11 ] .
 
 ex:C8_Matrix11 a iop:Entity ;
     rdfs:label "ground" .
 
 ex:C8_OoI11 a iop:Entity ;
-    rdfs:label "coarse woody debris" .
+    rdfs:label "woody debris" .
 
 ex:C8_Prop11 a iop:Property ;
     rdfs:label "area fraction" .
