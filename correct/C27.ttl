@@ -17,5 +17,5 @@ ex:C27_OoI40 a iop:Entity ;
     rdfs:label "isobutylene" .
 
 ex:C27_Prop40 a iop:Property ;
-    rdfs:label "mass concentration" .
+    rdfs:label "concentration" .
 
