@@ -15,7 +15,7 @@ ex:C20_OoI32 a iop:Entity ;
     rdfs:label "DDT" .
 
 ex:C20_Prop32 a iop:Property ;
-    rdfs:label "mass" .
+    rdfs:label "mass concentration" .
 
 ex:C20_Matrix32 a iop:Entity ;
     rdfs:label "soil" .
