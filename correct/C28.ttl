@@ -8,9 +8,6 @@ ex:C28 a iop:Variable ;
     ex:issue "https://github.com/i-adopt/examples/issues/45" ;
     iop:hasConstraint [ a iop:Constraint ;
             rdfs:label "near the sea shore" ;
-            iop:constrains ex:C28_Matrix41 ],
-        [ a iop:Constraint ;
-            rdfs:label "3 star" ;
             iop:constrains ex:C28_Matrix41 ] ;
     iop:hasMatrix ex:C28_Matrix41 ;
     iop:hasObjectOfInterest ex:C28_OoI41 ;
@@ -23,5 +20,4 @@ ex:C28_Prop41 a iop:Property ;
     rdfs:label "count" .
 
 ex:C28_Matrix41 a iop:Entity ;
-    rdfs:label "hotel" .
-
+    rdfs:label "3 star hotel" .
