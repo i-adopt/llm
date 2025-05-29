@@ -20,5 +20,5 @@ ex:C29_OoI43 a iop:Entity ;
     rdfs:label "nervosity feeling" .
 
 ex:C29_Prop43 a iop:Property ;
-    rdfs:label "frequency" .
+    rdfs:label "count" .
 
